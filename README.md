@@ -54,3 +54,4 @@ That's it. Now you can carry on with "git push -u origin master", to make all th
 CONTRIBUTORS (Update your names below)
 ============
 - Bhavyanshu
+- Salil
