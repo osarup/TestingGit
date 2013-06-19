@@ -13,7 +13,7 @@ All the R&D members, just follow these simple steps on how to git.
 
  Now the real thing begins.
 
-4) If using shell, type "git clone [repository-url]" For example, repository-url in this case is "https://github.com/Society-of-Programming-Languages/TestingGit.git" & in your case it will be "https://github.com/[Your Github Username]/TestingGit.git".
+4) By using git shell, type "git clone [repository-url]" For example, repository-url in this case is "https://github.com/Society-of-Programming-Languages/TestingGit.git" & in your case it will be "https://github.com/[Your Github Username]/TestingGit.git".
 
 5) Once you have cloned your forked repo, it will create a local directory on your hard disk starting with the name of the repo you just cloned.
 
