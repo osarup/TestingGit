@@ -29,7 +29,21 @@ All the R&D members, just follow these simple steps on how to git.
 
 9) That's all. If you followed each step carefully, you have got the whole idea behind git. There is "Issues" tab for creating issues regarding a particular code. You can create issues and a discussion can be held right there with everyone being notified about it.
 
+VERY VERY IMPORTANT NOTE: If you see some message saying that your "branch is behind something something", all it means is that you have not incorporated changes made by someone else. To do that simply open shell and go typing the following commands.
 
+"git remote -v" //Lists the names of remotes for a repository.
+"git remote add upstream https://github.com/Society-of-Programming-Languages/TestingGit.git" //Adds a new remote named "upstream". You can name it anything.
+"git remote -v" //Check if upstream has been added.
+"git fetch upstream" //Fetch all the branches of that remote into remote-tracking branches, such as upstream/master
+"git checkout master"
+
+# Rewrite your master branch so that any commits of yours that
+# aren't already in upstream/master are replayed on top of that
+# other branch:
+
+"git rebase upstream/master"
+
+That's it. Now you can carry on with "git push -u origin master", to make all the updated changes to you repo on github.
 
 CONTRIBUTORS (Update your names below)
 ============
