@@ -1,7 +1,7 @@
 TestingGit
 ==========
 
-Test all you git actions against this repository. 
+Test all your git actions against this repository. 
 
 All the R&D members, just follow these simple steps on how to git.
 
