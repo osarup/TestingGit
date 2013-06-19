@@ -38,14 +38,15 @@ VERY VERY IMPORTANT NOTE: If you see some message saying that your "branch is be
 "git remote -v" //Check if upstream has been added.
 
 "git fetch upstream" //Fetch all the branches of that remote into remote-tracking branches, such as upstream/master
-"git checkout master"
+
+"git checkout master" //Very important in order to switch to master branch of upstream
 
 
  Rewrite your master branch so that any commits of yours that
  aren't already in upstream/master are replayed on top of that
  other branch:
 
-"git rebase upstream/master"
+"git marge upstream/master"
 
 
 That's it. Now you can carry on with "git push -u origin master", to make all the updated changes to you repo on github.
