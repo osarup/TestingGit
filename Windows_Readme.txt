@@ -17,7 +17,7 @@ From your GUI, select "tools" on the top. from your list of shells, select whate
 Now just rifht click a rep, click launch shell, and at the promt, type:
 notepad readme.md <press enter/return>
 
-Add your name to the end, save, got to the GUI, click the repo, commit, sync. Then trek back to the repo on GitHub's site, go to the full request tab, and click new pull request or something. Don't remember, but poke around and you'll get there. :P
+Add your name to the end, save, got to the GUI, click the repo, commit, sync. Then trek back to the repo on GitHub's site, go to the pull request tab, and click new pull request. Should show you the new file(s) or updates. Click pull request above the "Wiki" tab.
 
 exit cmd by using typing "exit", or simply clicking the close button on the top right of the window, in true Windows fashion.
 
